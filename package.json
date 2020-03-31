@@ -9,18 +9,11 @@
     "watch": "nodemon server.js",
     "seed": "node seeders/seed.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AliciaBurn/17-Workout-Tracker.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AliciaBurn/17-Workout-Tracker/issues"
-  },
-  "homepage": "https://github.com/AliciaBurn/17-Workout-Tracker#readme",
   "dependencies": {
     "express": "^4.16.3",
-    "mongoose": "^5.3.16"
+    "mongoose": "^5.3.16",
+    "morgan": "^1.9.1"
   }
 }
